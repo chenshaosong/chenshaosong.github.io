@@ -110,7 +110,7 @@ jQuery(document).ready(function(){
 		
 	$contactform.submit(function(){
 		$.ajax({
-		   type: "GET",
+		   type: "POST",
 		   url: "php/contact.php",
 		   data: $(this).serialize(),
 		   success: function(msg)
