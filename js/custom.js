@@ -73,37 +73,38 @@ jQuery(document).ready(function(){
 	  });
 	  return false;
 	});	
-	
 	// Portfolio image animation 
-	$container.find('img').adipoli({
+	/*$container.find('img').adipoli({
 		'startEffect' 	: 'transparent',
 		'hoverEffect' 	: 'boxRandom',
 		'imageOpacity' 	: 0.6,
 		'animSpeed' 	: 100,
-	});
+	});*/
 	
 	// Copy categories to item classes
-	$filter.find('a').click(function() {
-		var currentOption = $(this).attr('data-filter');
-		$filter.find('a').removeClass('current');
-		$(this).addClass('current');
+	$container.find('li').click(function() {
+		$('.detail_list p').hide();
+		$('.detail_list p').eq($(this).index()).show();
 	});	
 	
 	/* ---------------------------------------------------------------------- */
 	/*	Fancybox 
 	/* ---------------------------------------------------------------------- */
-	$container.find('.folio').fancybox({
+	/*$container.find('.folio').fancybox({
 		'transitionIn'		:	'elastic',
 		'transitionOut'		:	'elastic',
 		'speedIn'			:	200, 
 		'speedOut'			:	200, 
 		'overlayOpacity'	:   0.6
-	});
-	
+	});*/
 	/* ---------------------------------------------------------------------- */
 	/*	Contact Form
 	/* ---------------------------------------------------------------------- */
-	
+	$filter.find('a').click(function() {
+		var currentOption = $(this).attr('data-filter');
+		$filter.find('a').removeClass('current');
+		$(this).addClass('current');
+	});	
 	// Needed variables
 	var $contactform 	= $('#contactform'),
 		$success		= 'Your message has been sent. Thank you!';

@@ -395,6 +395,13 @@
 		padding:0 20px 20px 20px;
 		overflow:hidden;
 	}
+	#portfolio .detail_list p{
+		display:none;
+		font-size: 14px;
+	    margin-top: 15px;
+	    font-weight: 400;
+	    color: #3A3A3A;
+	}
 	#portfolio .extra-text {
 		font-size:20px;
 		padding:24px 0;
