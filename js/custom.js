@@ -110,7 +110,7 @@ jQuery(document).ready(function(){
 		
 	$contactform.submit(function(){
 		$.ajax({
-		   type: "POST",
+		   type: "GET",
 		   url: "php/contact.php",
 		   data: $(this).serialize(),
 		   success: function(msg)
@@ -134,21 +134,21 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Needed variables
-	var $map 				= $('#map'),
-		$tabContactClass 	= ('tab-contact'),
-		$address 			= 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia';
+// 	var $map 				= $('#map'),
+// 		$tabContactClass 	= ('tab-contact'),
+// 		$address 			= 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia';
 	
-	$content.bind('easytabs:after', function(evt,tab,panel) {
-		if ( tab.hasClass($tabContactClass) ) {
-			$map.gMap({
-				address: $address,
-				zoom: 16,
-				markers: [
-					{ 'address' : $address }
-				]
-			});
-		}
-  	});
+// 	$content.bind('easytabs:after', function(evt,tab,panel) {
+// 		if ( tab.hasClass($tabContactClass) ) {
+// 			$map.gMap({
+// 				address: $address,
+// 				zoom: 16,
+// 				markers: [
+// 					{ 'address' : $address }
+// 				]
+// 			});
+// 		}
+//   	});
 	
 
 });	
