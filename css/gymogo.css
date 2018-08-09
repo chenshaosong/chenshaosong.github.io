@@ -1,0 +1,86 @@
+section .gymogo_company .title_same, section .gymogo_life .title_same {
+  margin-bottom: 0.2rem;
+}
+
+section .gymogo_company .gymogo_company_content, section .gymogo_life .gymogo_company_content {
+  padding: 0 .1rem;
+}
+
+section .gymogo_company .gymogo_company_content p, section .gymogo_life .gymogo_company_content p {
+  font-size: 0.12rem;
+  color: #333333;
+  line-height: 0.19rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+
+header i {
+  font-size: 0.14rem;
+}
+
+header p {
+  font-size: 0.17rem;
+  color: #000000;
+  line-height: 0.17rem;
+}
+
+section .gymogo_company {
+  padding-top: 0.3rem;
+  padding-bottom: 0.12rem;
+}
+
+section .gymogo_company .gymogo_company_content img {
+  width: 3.55rem;
+  height: 2.06rem;
+}
+
+section .gymogo_company .gymogo_company_content h3 {
+  line-height: 0.32rem;
+  font-size: 0.12rem;
+  color: #000000;
+  text-align: center;
+}
+
+section .gymogo_life {
+  padding-top: 0.3rem;
+  padding-bottom: 0.12rem;
+  background: #f3f3f3;
+}
+
+section .gymogo_msg {
+  padding-top: 0.3rem;
+  background: #ffffff;
+}
+
+section .gymogo_msg .gymogo_msg_content {
+  padding: 0 0.1rem;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  margin-top: 0.24rem;
+}
+
+section .gymogo_msg .gymogo_msg_content .gymogo_msg_content_list {
+  width: 1.75rem;
+  margin-bottom: 0.05rem;
+}
+
+section .gymogo_msg .gymogo_msg_content .gymogo_msg_content_list img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+section .gymogo_msg .gymogo_msg_content .gymogo_msg_content_list p {
+  color: #333333;
+  font-size: 0.14rem;
+  text-align: center;
+  line-height: 0.28rem;
+}
+
+section .gymogo_msg .button_same {
+  margin: 0.2rem auto 0.29rem;
+}
+
+section .address_same {
+  margin-top: 0;
+}

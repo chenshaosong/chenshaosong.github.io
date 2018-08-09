@@ -1,0 +1,38 @@
+header{
+  i{
+    font-size: 0.14rem;
+  }
+  p{
+    font-size: 0.17rem;
+    color:#000000;
+    line-height: 0.17rem;
+  }
+}
+section{
+  .newscenter{
+    padding-top: 0.2rem;
+    background: #f5f5f5;
+    .newscenter_nav{
+      display: -webkit-flex;
+      a{
+        -webkit-flex: 1;
+        border: 1px solid #ccc;
+        font-size: 0.12rem;
+        color:#000000;
+        text-align: center;
+        line-height: 0.29rem;
+      }
+    }
+    .newscenter_nav_content{
+      padding: 0.14rem 0.1rem 0.3rem;
+      .button_same{
+        margin: 0.19rem auto 0;
+      }
+    }
+  }
+  .newscenter_online{
+    .title_same{
+      padding:0.28rem 0 0.21rem;
+    }
+  }
+}

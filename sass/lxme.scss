@@ -1,0 +1,28 @@
+header{
+  i{
+    font-size: 0.14rem;
+  }
+  p{
+    font-size: 0.17rem;
+    color:#000000;
+    line-height: 0.17rem;
+  }
+}
+section{
+  .lxme_map{
+    width:3.55rem;
+    height:1.98rem;
+    background: #ccc;
+    margin: 0 auto 0.23rem;
+  }
+  .lxme_addme{
+    .procenter_addme_title{
+      padding-top: 0.27rem;
+      border: none;
+      background: #fdd330;
+    }
+    .procenter_addme_input{
+      margin-top: 0;
+    }
+  }
+}

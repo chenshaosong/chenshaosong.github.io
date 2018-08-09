@@ -1,0 +1,38 @@
+header{
+  i{
+    font-size: 0.14rem;
+  }
+}
+//productlist
+.productlist{
+  background:#f5f5f5;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  padding: 0.31rem 0.1rem 0;
+  -webkit-justify-content: space-between;
+  .product_list_same{
+    margin-bottom: 0.17rem;
+  }
+}
+.onlineshop{
+  .title_same{
+    margin: 0.34rem 0 0.2rem;
+  }
+}
+//procenter_addme
+
+//news
+.news_same{
+  padding: 0 0.1rem;
+  .news_same_content{
+    .news_same_content_list{
+      margin-top: 0.13rem;
+    }
+  }
+  .button_same{
+    margin:0.2rem auto 0.17rem;
+  }
+  .title_same{
+    margin:0.34rem 0 0.19rem;
+  }
+}

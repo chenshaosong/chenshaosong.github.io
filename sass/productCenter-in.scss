@@ -1,0 +1,133 @@
+header{
+  i{
+    font-size: 0.14rem;
+  }
+  p{
+    font-size: 0.17rem;
+    color:#000000;
+    line-height: 0.17rem;
+  }
+}
+section{
+  .top{
+    .top_product_img{
+      width:3.75rem;
+      height:3.75rem;
+    }
+    .top_property{
+      .property_title{
+        height:0.61rem;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
+        border-bottom: 2px solid #e5e5e5;
+        h3{
+          line-height: 0.2rem;
+          font-size: 0.2rem;
+          color:#000000;
+        }
+      }
+      .property_name{
+        border-bottom: 2px solid #e5e5e5;
+        p{
+          display: -webkit-flex;
+          -webkit-justify-content: space-between;
+          -webkit-align-items: center;
+        }
+        p:nth-of-type(1){
+          span{
+            font-size: 0.1rem;
+            transform: scale(0.6);
+            color:#989898;
+            line-height: 0.1rem;
+          }
+          span:nth-of-type(1){
+            margin-left: 0.03rem;
+          }
+          span:nth-of-type(2){
+            margin-right: 0.15rem;
+          }
+          height: 0.16rem;
+        }
+        p:nth-of-type(2){
+          span{
+            font-size: 0.12rem;
+            color:#333333;
+            line-height: 0.12rem;
+          }
+          height: 0.32rem;
+          padding:0 0.2rem 0 0.1rem;
+        }
+      }
+      .property_content{
+        border-bottom: 2px solid #e5e5e5;
+        padding-bottom: 0.1rem;
+        span{
+          font-size: 0.1rem;
+          transform: scale(0.6);
+          color:#989898;
+          line-height: 0.25rem;
+          margin-left: -0.8rem;
+        }
+        p{
+          line-height: 0.23rem;
+          font-size: 0.12rem;
+          color:#333333;
+          padding:0 0.1rem;
+        }
+      }
+    }
+    .sameshop{
+      padding: 0.32rem 0 0.25rem;
+    }
+  }
+  .proc_content{
+    background:#f5f5f5;
+    .proc_content_detail{
+      padding: 0 0.1rem 0.35rem;
+      h3{
+        font-size: 0.19rem;
+        height: 0.64rem;
+        color:#000000;
+        display: -webkit-flex;
+        -webkit-align-items: center;
+        -webkit-justify-content: center;
+      }
+      .proc_content_detail_main{
+        background:white;
+        padding:0.15rem 0;
+        p{
+          padding:0 0.21rem 0 0.14rem;
+          font-size: 0.12rem;
+          color:#333333;
+          line-height: 0.2rem;
+          margin-bottom: 0.2rem;
+        }
+        p:last-of-type{
+          margin-bottom: 0rem;
+        }
+        img{
+          width:2.61rem;
+          height:1.39rem;
+          margin:0 auto 0.2rem;
+        }
+      }
+    }
+  }
+  .moreproduct{
+    .title_same{
+      padding: 0.25rem 0;
+    }
+    .moreproduct_list{
+      padding:0 0.1rem;
+      display: -webkit-flex;
+      -webkit-justify-content: space-between;
+    }
+  }
+  .procenter_addme_same{
+    margin-top: 0.3rem;
+    .procenter_addme_title{
+      border: none;
+    }
+  }
+}

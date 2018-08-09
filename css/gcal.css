@@ -1,0 +1,74 @@
+header i {
+  font-size: 0.14rem;
+}
+
+header p {
+  font-size: 0.17rem;
+  color: #000000;
+  line-height: 0.17rem;
+}
+
+section {
+  background: #f5f5f5;
+}
+
+section .gcal_detail {
+  padding: 0 0.1rem 0.22rem;
+}
+
+section .gcal_detail .gcal_detail_list {
+  padding-top: 0.21rem;
+  border-bottom: 2px solid #6e6e6e;
+}
+
+section .gcal_detail .gcal_detail_list .gcal_detail_list_lbt {
+  width: 3.05rem;
+  height: 1.89rem;
+  background: #ccc;
+  margin: 0 auto;
+}
+
+section .gcal_detail .gcal_detail_list .gcal_detail_list_title {
+  height: 0.54rem;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-align-items: center;
+}
+
+section .gcal_detail .gcal_detail_list .gcal_detail_list_title h3 {
+  font-size: 0.13rem;
+  color: #000000;
+  line-height: 0.13rem;
+}
+
+section .gcal_detail .gcal_detail_list .gcal_detail_list_title p {
+  font-size: 0.12rem;
+  color: #000000;
+  line-height: 0.12rem;
+  display: -webkit-flex;
+}
+
+section .gcal_detail .gcal_detail_list .gcal_detail_list_title p span {
+  font-size: 0.14rem;
+}
+
+section .gcal_detail .button_same {
+  margin: 0.22rem auto 0;
+}
+
+section .gcal_moreitem {
+  background: white;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  padding: 0.22rem 0 0 0;
+}
+
+section .gcal_moreitem .moreitem_same {
+  margin: 0.07rem 0.1rem;
+}
+
+section .address_same {
+  background: white;
+  padding-top: 0.25rem;
+}
