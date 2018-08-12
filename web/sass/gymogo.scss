@@ -1,0 +1,91 @@
+.section{
+  width: 100%;
+  padding-bottom:20px;
+  .same_content{
+    width:75%;
+    margin-bottom: 20px;
+    margin-top:0px;
+  }
+  .gymogo_about{
+    width:1200px;
+    margin: 0 auto;
+    .same_title{
+      margin-bottom: 38px;
+      padding-top: 58px;
+      h3{
+        font-weight: 600;
+      }
+      h4{
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+    .same_content{
+      width:75%;
+      margin-bottom: 20px;
+      margin-top:0px;
+    }
+    .same_content1{
+      width:57%;
+    }
+  }
+  .gymogo_lbt{
+    width: 100%;
+    background: #f3f3f3;
+    .gymogo_lbt_main{
+      max-width: 1200px;
+      margin: 0 auto;
+      height:460px;
+    }
+  }
+  .gymogo_culture{
+    width:1200px;
+    margin: 0 auto;
+    .same_title{
+      padding:38px 20px;
+      h3{
+        font-weight: 600;
+      }
+      h4{
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+  }
+  .gymogo_success{
+    width:1200px;
+    margin: 0 auto;
+    .same_title{
+      padding:48px 20px;
+      h3{
+        font-weight: 600;
+      }
+      h4{
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+    .gymogo_success_content{
+      overflow: hidden;
+      .gymogo_success_list{
+        width:24.1%;
+        float: left;
+        margin-right: 1.2%;
+        margin-bottom: 60px;
+        img{
+          width: 100%;
+        }
+        p{
+          font-size: 16px;
+          color:#333333;
+          line-height: 16px;
+          margin-top: 22px;
+          text-align: center;
+        }
+      }
+      .gymogo_success_list4{
+        margin-right: 0;
+      }
+    }
+  }
+}

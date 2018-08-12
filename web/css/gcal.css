@@ -1,0 +1,23 @@
+.section {
+  padding-bottom: 46px;
+}
+
+.section .gcal_case .same_title {
+  padding-top: 44px;
+}
+
+.section .gcal_case .same_title .home_case_title_content {
+  color: #484848;
+  font-size: 14px;
+  line-height: 27px;
+  width: 56%;
+  margin: 0 auto 10px;
+}
+
+.section .gcal_case_content .same_case_content_bd .same_case_content_list .same_case_content_list_lbt {
+  background: #f5f5f5;
+}
+
+.section .same_btn {
+  margin-top: 64px;
+}

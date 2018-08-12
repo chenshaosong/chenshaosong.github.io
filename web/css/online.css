@@ -1,0 +1,41 @@
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section .online_shop {
+  padding-top: 42px;
+}
+
+.section .online_shop .same_title {
+  padding-bottom: 70px;
+}
+
+.section .online_shop .same_title h4 {
+  width: 56%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333333;
+}
+
+.section .online_shop .online_shop_content {
+  text-align: center;
+}
+
+.section .online_shop .online_shop_content .same_online_list img {
+  width: 100%;
+  height: 100%;
+}
+
+.section .online_shop .online_shop_content .same_online_list1 {
+  margin-right: 36px;
+}
+
+.section .online_news {
+  padding-top: 80px;
+  padding-bottom: 36px;
+}
+
+.section .online_news .same_btn {
+  margin-top: 28px;
+}

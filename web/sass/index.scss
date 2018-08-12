@@ -1,0 +1,319 @@
+//home_sametemplate
+%home_sametemplate{
+  .home_sametemplate_left{
+    height:450px;
+    background: #ccc;
+    img{
+      width:100%;
+    }
+  }
+  .home_sametemplate_right{
+    margin-left: -30px;
+    background: white;
+    padding: 62px 10px 50px 50px;
+    margin-top: 40px;
+    h3{
+      font-size: 22px;
+      color: #000000;
+      line-height: 22px;
+      span{
+        margin-top: 10px;
+        display: block;
+        color:#a3a3a3;
+        font-size: 12px;
+        line-height: 12px;
+      }
+    }
+    p{
+      color:#d8d8d8;
+      font-size: 12px;
+      line-height: 27px;
+      margin-top: 29px;
+      margin-bottom: 38px;
+    }
+    .same_btn{
+      margin:0;
+    }
+  }
+}
+
+//section start
+.section{
+  overflow: hidden;
+  padding-top: 30px;
+  .section_body{
+    .produce_intro{
+      border:1px solid #cccccc;
+      .produce_intro_list{
+        text-align: center;
+        padding:20px 0;
+        position: relative;
+        h3{
+          font-size: 18px;
+          color:#000000;
+          line-height: 24px;
+        }
+        p{
+          font-size: 16px;
+          color:#4d4d4d;
+          line-height: 22px;
+        }
+        b{
+          position: absolute;
+          top:86px;
+          display: none;
+          width:0px;
+          height:0px;
+          border:8px solid #111146;
+          border-left-color:transparent;
+          border-right-color:transparent;
+          border-bottom-color:transparent;
+        }
+      }
+      .active{
+        background: #111146;
+        h3{
+          color:#fdd330;
+        }
+        p{
+          color:#c2a236;
+        }
+        b{
+          display: block;
+        }
+      }
+    }
+    .produce_intro_content{
+      padding: 88px 0 0 0;
+      .produce_intro_content_limg{
+        margin-top: 38px;
+      }
+      .produce_intro_content_detail{
+        padding-left:64px;
+        .pic_title{
+          font-size: 46px;
+          color: #000000;
+          line-height: 46px;
+        }
+        .pic_color{
+          span{
+            display: inline-block;
+            width:22px;
+            height:2px;
+            background:#111146;
+          }
+          .pic_color_two{
+            background:#fdd435;
+          }
+        }
+        h4{
+          font-size: 22px;
+          font-weight: 100;
+          line-height: 22px;
+          color:#000000;
+          margin-bottom: 24px;
+          margin-top: 17px;
+        }
+        .pic_content{
+          font-size: 14px;
+          line-height: 28px;
+          color:#333333;
+          margin-top: 20px;
+          margin-bottom: 24px;
+        }
+        a{
+          display: block;
+          background-color:#fdd330;
+          width:124px;
+          line-height:36px;
+          text-align: center;
+          color:#3f350c;
+          font-size: 14px;
+          margin-bottom: 60px;
+        }
+        .home_online{
+          margin-top: 28px;
+          h3{
+            font-size: 20px;
+            color:#000000;
+            line-height: 20px;
+            margin-bottom: 16px;
+          }
+        }
+      }
+      .produce_intro_content_logo{
+        text-align: center;
+        margin-top: 108px;
+        margin-bottom: 25px;
+        .ico_logo{
+          font-size: 60px;
+        }
+        p{
+          margin-top: 20px;
+          span{
+            display: inline-block;
+            width:22px;
+            height:2px;
+            background:#111146;
+          }
+          .logo_color_two{
+            background:#fdd435;
+          }
+        }
+      }
+    }
+  }
+}
+//about的背景图
+.home_about_mogo_bg{
+  width:100%;
+  background:#fdd435;
+  height:291px;
+}
+//关于mogo
+.home_about_mogo{
+  .home_about_mogo_body{
+    .home_aboutmogo_title{
+      margin-top: -252px;
+      margin-bottom: 25px;
+      h3{
+        font-size:19px;
+        color:#000000;
+        line-height: 50px;
+        border-bottom: 1px solid #ad9435;
+        span{
+          font-size:12px;
+          color:#000000;
+          line-height: 50px;
+        }
+        .ico_phone{
+          border:1px solid #000000;
+          color:#000000;
+          border-radius: 50%;
+          font-size: 12px;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+      }
+      .home_aboutmogo_title1{
+        line-height: 19px;
+        border-bottom: none;
+        span{
+          display: block;
+          margin-top: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .home_about_mogo_profike{
+      padding:60px 60px 54px;
+      background: white;
+      img{
+        width:100%;
+      }
+    }
+  }
+}
+//文化
+.home_life{
+  overflow: hidden;
+  @extend %home_sametemplate;
+}
+//工程案例
+.home_case{
+  max-width: 1200px;
+  margin: 0 auto;
+  .same_title{
+    .home_case_title_content{
+      color:#484848;
+      font-size: 14px;
+      line-height: 27px;
+      width:56%;
+      margin:0 auto 37px;
+    }
+  }
+}
+.home_case_content{
+  width:100%;
+  background: #f5f5f5;
+}
+//新闻
+.home_news{
+  width:100%;
+  .hone_news_bd{
+    max-width: 1200px;
+    margin: 0 auto;
+    .same_title{
+      padding: 50px 0 23px;
+    }
+    .home_news_nav{
+      text-align: center;
+      margin-bottom: 26px;
+      span{
+        display: inline-block;
+        width:85px;
+        line-height: 31px;
+        text-align: center;
+        color: black;
+      }
+      .active{
+        background: #fdd435;
+      }
+    }
+    .home_news_content{
+      width:100%;
+      .home_news_content_lbt{
+        width:100%;
+        .home_news_content_lbt_main{
+          width:100%;
+          height:306px;
+          background: #e5e5e5;
+        }
+        .home_news_content_lbt_msg{
+          width:100%;
+          line-height: 68px;
+          background:#fdd435;
+          h3{
+            padding-left: 18px;
+            font-size: 18px;
+            span{
+              font-size: 14px;
+            }
+          }
+          .home_news_content_lbt_msg1{
+            float:right;
+            padding-right: 38px;
+            padding-left: 0;
+          }
+        }
+      }
+      .same_btn{
+        margin-top: 48px;
+        margin-bottom: 58px;
+      }
+    }
+  }
+}
+//招商加盟
+.home_promotion{
+  padding-bottom: 64px;
+  overflow: hidden;
+  @extend %home_sametemplate;
+  .home_promotion_left{
+    height:397px;
+    img{
+      width: 100%;
+    }
+  }
+  .home_promotion_right{
+    padding:70px 79px 60px 69px;
+    margin-left: 0;
+    margin-top: 0;
+    box-shadow:0px 0px 5px #C9C9C9;
+    p{
+      font-size: 14px;
+      color:#333333;
+      line-height: 30px;
+    }
+  }
+}
