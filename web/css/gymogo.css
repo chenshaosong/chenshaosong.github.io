@@ -10,7 +10,7 @@
 }
 
 .section .gymogo_about {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .section .gymogo_culture {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .section .gymogo_success {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

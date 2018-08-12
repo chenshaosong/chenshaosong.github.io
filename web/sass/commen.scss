@@ -546,5 +546,50 @@ body {
       display: none;
     }
   }
+  .footer_contaner{
+    .footer{
+      .footer_top{
+        .footer_call{
+          text-align: center;
+          h3{
+            padding-left:0;
+            border-left: none;
+          }
+        }
+        dl{
+         text-align: center;
+          margin-top: 20px;
+        }
+        .footer_erm{
+          text-align: center;
+          margin-top: 10px;
+          .footer_erm_list{
+            float: none;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  .same_partner{
+    .same_partner_bd{
+      background: url("../images/sealant/img_cp_zsjm_bg1.jpg");
+      background-size:cover ;
+      padding: 3.6% 0 4%;
+      margin-top: 52px;
+      .same_partner_left{
+        padding:0px 0 0px 9.2%;
+        width: 90.2%;
+      }
+      .same_partner_right{
+        width: 100%;
+        text-align: center;
+        .same_partner_right_content{
+          margin-top: 20px;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
 
