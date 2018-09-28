@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>信息反馈</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/feedBack.css">
+  </head>
+
+  <body>
+    <p>请留下您宝贵的意见与建议</p>
+    <textarea class="weui-textarea" placeholder="请简要描述您的问题和意见" rows="3"></textarea>
+    <a href="javascript:;" class="weui-btn weui-btn_primary" style="background: #85BB43;border:0;" onclick="feedBack.submitOption()">提交</a>
+    <script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+    <script src="js/feedBack.js"></script>
+  </body>
+</html>

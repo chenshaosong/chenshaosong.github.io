@@ -1,0 +1,52 @@
+.weui-cell_access .weui-cell__ft:after {
+  display: none;
+}
+.weui-cells {
+  margin-top: 0;
+}
+.weui-cell__bd h3 {
+  font-size: 0.7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 12rem;
+}
+.weui-cell__bd p {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.weui-cell__ft {
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+.no_order_box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.no_order_box img {
+  width: 4rem;
+}
+.no_order_box h3 {
+  font-size: 0.75rem;
+  margin: 0.6rem 0;
+  letter-spacing: 1px;
+}
+.no_order_box p {
+  font-size: 0.6rem;
+}
+.no_order_box .refreshBtn {
+  font-size: 0.7rem;
+  width: 2.3rem;
+  line-height: 1.3rem;
+  border: 1px solid #85BB43;
+  text-align: center;
+  margin-top: 0.3rem;
+  color: #85BB43;
+}

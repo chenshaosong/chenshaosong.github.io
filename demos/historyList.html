@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>历史订单</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/historyList.css">
+  </head>
+
+  <body style="background: #85BB43">
+  <div class="content_box">
+    <div class="item_box" onclick="historyListPage.goWeb('historyShop.html')">
+      <div class="i_box"><i class="ico_shoping"></i></div>
+      <div class="item_name">乐豆商城订单</div>
+    </div>
+    <div class="item_box" onclick="historyListPage.goWeb('historylext.html')">
+      <div class="i_box"><i class="ico_lext"></i></div>
+      <div class="item_name">乐享亭订单</div>
+    </div>
+    <div class="item_box" onclick="historyListPage.goWeb('historylext.html?type=vm')">
+      <div class="i_box"> <i class="ico_noperson_machine"></i></div>
+      <div class="item_name">无人售货机订单</div>
+    </div>
+  </div>
+    <script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+    <script src="js/historyList.js"></script>
+  </body>
+</html>

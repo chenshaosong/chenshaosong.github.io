@@ -1,0 +1,736 @@
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background: #F8F8F9;
+}
+* { touch-action: pan-y; }
+@font-face {
+  font-family: 'Lese';
+  src:  url('../assets/fonts/Lese.eot?vote2g');
+  src:  url('../assets/fonts/Lese.eot?vote2g#iefix') format('embedded-opentype'),
+  url('../assets/fonts/Lese.ttf?vote2g') format('truetype'),
+  url('../assets/fonts/Lese.woff?vote2g') format('woff'),
+  url('../assets/fonts/Lese.svg?vote2g#Lese') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Lese' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico_lext:before {
+  content: "\e9a1";
+}
+.ico_noperson_machine:before {
+  content: "\e9a2";
+}
+.ico_shoping:before {
+  content: "\e9a3";
+}
+.ico_trash:before {
+  content: "\e9a4";
+}
+.ico_alipay:before {
+  content: "\e99e";
+}
+.ico_car:before {
+  content: "\e99f";
+}
+.ico_wechatpay:before {
+  content: "\e9a0";
+}
+.ico_locate:before {
+  content: "\e945";
+}
+.ico_position_move:before {
+  content: "\e99d";
+}
+.ico_logo_txt1 .path1:before {
+  content: "\e946";
+  color: rgb(153, 199, 51);
+}
+.ico_logo_txt1 .path2:before {
+  content: "\e947";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt1 .path3:before {
+  content: "\e948";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt1 .path4:before {
+  content: "\e949";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt1 .path5:before {
+  content: "\e94a";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt1 .path6:before {
+  content: "\e94b";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt1 .path7:before {
+  content: "\e94c";
+  margin-left: -0.77734375em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo_txt1 .path8:before {
+  content: "\e94d";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt1 .path9:before {
+  content: "\e94e";
+  margin-left: -0.77734375em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo_txt1 .path10:before {
+  content: "\e94f";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path11:before {
+  content: "\e950";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path12:before {
+  content: "\e951";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path13:before {
+  content: "\e952";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path14:before {
+  content: "\e953";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path15:before {
+  content: "\e954";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path16:before {
+  content: "\e955";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt1 .path17:before {
+  content: "\e956";
+  margin-left: -0.77734375em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo_txt1 .path18:before {
+  content: "\e957";
+  margin-left: -0.77734375em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo_txt1 .path19:before {
+  content: "\e958";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt1 .path20:before {
+  content: "\e959";
+  margin-left: -0.77734375em;
+  color: rgb(63, 63, 63);
+}
+.ico_logo_txt1 .path21:before {
+  content: "\e95a";
+  margin-left: -0.77734375em;
+  color: rgb(63, 63, 63);
+}
+.ico_logo_txt1 .path22:before {
+  content: "\e95b";
+  margin-left: -0.77734375em;
+  color: rgb(63, 63, 63);
+}
+.ico_logo_txt1 .path23:before {
+  content: "\e95c";
+  margin-left: -0.77734375em;
+  color: rgb(63, 63, 63);
+}
+.ico_logo_txt1 .path24:before {
+  content: "\e95d";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path25:before {
+  content: "\e95e";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path26:before {
+  content: "\e95f";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path27:before {
+  content: "\e960";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path28:before {
+  content: "\e961";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path29:before {
+  content: "\e962";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path30:before {
+  content: "\e963";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path31:before {
+  content: "\e964";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path32:before {
+  content: "\e965";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path33:before {
+  content: "\e966";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt1 .path34:before {
+  content: "\e967";
+  margin-left: -0.77734375em;
+  color: rgb(127, 127, 127);
+}
+.ico_logo_txt2 .path1:before {
+  content: "\e968";
+  color: rgb(153, 199, 51);
+}
+.ico_logo_txt2 .path2:before {
+  content: "\e969";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt2 .path3:before {
+  content: "\e96a";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt2 .path4:before {
+  content: "\e96b";
+  margin-left: -0.77734375em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo_txt2 .path5:before {
+  content: "\e96c";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path6:before {
+  content: "\e96d";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt2 .path7:before {
+  content: "\e96e";
+  margin-left: -0.77734375em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo_txt2 .path8:before {
+  content: "\e96f";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt2 .path9:before {
+  content: "\e970";
+  margin-left: -0.77734375em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo_txt2 .path10:before {
+  content: "\e971";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path11:before {
+  content: "\e972";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path12:before {
+  content: "\e973";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path13:before {
+  content: "\e974";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path14:before {
+  content: "\e975";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path15:before {
+  content: "\e976";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path16:before {
+  content: "\e977";
+  margin-left: -0.77734375em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo_txt2 .path17:before {
+  content: "\e978";
+  margin-left: -0.77734375em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo_txt2 .path18:before {
+  content: "\e979";
+  margin-left: -0.77734375em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo_txt2 .path19:before {
+  content: "\e97a";
+  margin-left: -0.77734375em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo_txt2 .path20:before {
+  content: "\e97b";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path21:before {
+  content: "\e97c";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path22:before {
+  content: "\e97d";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path23:before {
+  content: "\e97e";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path24:before {
+  content: "\e97f";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path25:before {
+  content: "\e980";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path26:before {
+  content: "\e981";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path27:before {
+  content: "\e982";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path28:before {
+  content: "\e983";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path29:before {
+  content: "\e984";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path30:before {
+  content: "\e985";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path31:before {
+  content: "\e986";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path32:before {
+  content: "\e987";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path33:before {
+  content: "\e988";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo_txt2 .path34:before {
+  content: "\e989";
+  margin-left: -0.77734375em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo .path1:before {
+  content: "\e98a";
+  color: rgb(153, 199, 51);
+}
+.ico_logo .path2:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo .path3:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo .path4:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(99, 138, 76);
+}
+.ico_logo .path5:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(133, 187, 67);
+}
+.ico_logo .path6:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo .path7:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo .path8:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ico_logo .path9:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(34, 23, 20);
+}
+.ico_logo .path10:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path11:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path12:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path13:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path14:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path15:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path16:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(0, 101, 55);
+}
+.ico_logo .path17:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo .path18:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(16, 44, 53);
+}
+.ico_logo .path19:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ico_addcircle:before {
+  content: "\e93b";
+}
+.ico_call:before {
+  content: "\e93c";
+}
+.ico_code_pay:before {
+  content: "\e93d";
+}
+.ico_code_put:before {
+  content: "\e93e";
+}
+.ico_find:before {
+  content: "\e93f";
+}
+.ico_minuscircle:before {
+  content: "\e940";
+}
+.ico_recharge:before {
+  content: "\e941";
+}
+.ico_wallet:before {
+  content: "\e942";
+}
+.ico_withdraw:before {
+  content: "\e943";
+}
+.ico_localist:before {
+  content: "\e944";
+}
+.ico_cloud:before {
+  content: "\e939";
+}
+.ico_personcard:before {
+  content: "\e93a";
+}
+.ico_chevron_right:before {
+  content: "\e929";
+}
+.ico_clear:before {
+  content: "\e92a";
+}
+.ico_correct:before {
+  content: "\e92b";
+}
+.ico_facerror:before {
+  content: "\e92c";
+}
+.ico_key:before {
+  content: "\e92d";
+}
+.ico_loading:before {
+  content: "\e92e";
+}
+.ico_mobile:before {
+  content: "\e92f";
+}
+.ico_modify:before {
+  content: "\e930";
+}
+.ico_plus:before {
+  content: "\e931";
+}
+.ico_pluscircle:before {
+  content: "\e932";
+}
+.ico_position:before {
+  content: "\e933";
+}
+.ico_radio_checked:before {
+  content: "\e934";
+}
+.ico_radio_default:before {
+  content: "\e935";
+}
+.ico_rubbish_open:before {
+  content: "\e936";
+}
+.ico_sequence:before {
+  content: "\e937";
+}
+.ico_sorts:before {
+  content: "\e938";
+}
+.ico_resite:before {
+  content: "\e928";
+}
+.ico_sv_trash .path1:before {
+  content: "\e90d";
+  color: rgb(255, 255, 255);
+}
+.ico_sv_trash .path2:before {
+  content: "\e90e";
+  margin-left: -0.8046875em;
+  color: rgb(52, 148, 91);
+}
+.ico_sv_trash .path3:before {
+  content: "\e90f";
+  margin-left: -0.8046875em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_trash .path4:before {
+  content: "\e910";
+  margin-left: -0.8046875em;
+  color: rgb(153, 199, 51);
+}
+.ico_sv_trash .path5:before {
+  content: "\e911";
+  margin-left: -0.8046875em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_trash .path6:before {
+  content: "\e912";
+  margin-left: -0.8046875em;
+  color: rgb(52, 148, 91);
+}
+.ico_sv_trash .path7:before {
+  content: "\e913";
+  margin-left: -0.8046875em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_trash .path8:before {
+  content: "\e914";
+  margin-left: -0.8046875em;
+  color: rgb(248, 231, 28);
+}
+.ico_sv_trash .path9:before {
+  content: "\e915";
+  margin-left: -0.8046875em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path1:before {
+  content: "\e91d";
+  color: rgb(0, 0, 0);
+}
+.ico_sv_rubbish .path2:before {
+  content: "\e91e";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path3:before {
+  content: "\e91f";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path4:before {
+  content: "\e920";
+  margin-left: -0.9228515625em;
+  color: rgb(52, 148, 91);
+}
+.ico_sv_rubbish .path5:before {
+  content: "\e921";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path6:before {
+  content: "\e922";
+  margin-left: -0.9228515625em;
+  color: rgb(153, 199, 51);
+}
+.ico_sv_rubbish .path7:before {
+  content: "\e923";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path8:before {
+  content: "\e924";
+  margin-left: -0.9228515625em;
+  color: rgb(52, 148, 91);
+}
+.ico_sv_rubbish .path9:before {
+  content: "\e925";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_sv_rubbish .path10:before {
+  content: "\e926";
+  margin-left: -0.9228515625em;
+  color: rgb(248, 231, 28);
+}
+.ico_sv_rubbish .path11:before {
+  content: "\e927";
+  margin-left: -0.9228515625em;
+  color: rgb(255, 255, 255);
+}
+.ico_chevron_thin:before {
+  content: "\e900";
+}
+.ico_code:before {
+  content: "\e901";
+}
+.ico_cursor:before {
+  content: "\e902";
+}
+.ico_editor:before {
+  content: "\e903";
+}
+.ico_help:before {
+  content: "\e904";
+}
+.ico_list:before {
+  content: "\e905";
+}
+.ico_logout:before {
+  content: "\e906";
+}
+.ico_menu:before {
+  content: "\e907";
+}
+.ico_message:before {
+  content: "\e908";
+}
+.ico_my:before {
+  content: "\e909";
+}
+.ico_order:before {
+  content: "\e90a";
+}
+.ico_person:before {
+  content: "\e90b";
+}
+.ico_ranks:before {
+  content: "\e90c";
+}
+.ico_scan:before {
+  content: "\e916";
+}
+.ico_scanface:before {
+  content: "\e917";
+}
+.ico_shopcart_join:before {
+  content: "\e918";
+}
+.ico_shopcart:before {
+  content: "\e919";
+}
+.ico_shoponline:before {
+  content: "\e91a";
+}
+.ico_sort:before {
+  content: "\e91b";
+}
+.ico_usermenu:before {
+  content: "\e91c";
+}

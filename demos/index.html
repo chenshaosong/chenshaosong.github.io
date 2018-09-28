@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>乐色</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+  <div class="bg_information">
+    <div class="row_flex" style="width:80%;">
+      <div class="column_flex" onclick="homePage.scanQr()">
+        <div class="same_top">
+          <i class="ico_scan"></i>
+        </div>
+        <p>扫码投垃圾</p>
+      </div>
+      <div class="column_flex">
+        <div class="header_photo">
+          <img src=""/>
+        </div>
+        <p class="header_photo_p"></p>
+      </div>
+      <div class="column_flex" onclick="homePage.attachment()">
+        <div class="same_top">
+          <i class="ico_localist"></i>
+        </div>
+        <p>就近乐色箱</p>
+      </div>
+    </div>
+    <div class="row_flex integral">
+      <div class="column_flex mol_line">
+        <h2 class="ldye"></h2>
+        <p>乐豆余额</p>
+      </div>
+      <div class="column_flex mol_line center" onclick="homePage.goMyRqcode()">
+        <h2><i class="ico_code_pay"></i></h2>
+        <p>二维码</p>
+      </div>
+      <div class="column_flex mol_line">
+        <h2 class="jstpl"></h2>
+        <p>减少碳排量</p>
+      </div>
+    </div>
+  </div>
+  <div class="weui-cells">
+    <a class="weui-cell weui-cell_access" href="javascript:;" onclick="homePage.goUserCenter()">
+      <div class="weui-cell__hd"><i class="ico_my"></i></div>
+      <div class="weui-cell__bd">
+        <p>个人中心</p>
+      </div>
+      <div class="weui-cell__ft">
+      </div>
+    </a>
+    <a class="weui-cell weui-cell_access" href="javascript:;" onclick="homePage.goHistoryOrder()">
+      <div class="weui-cell__hd"><i class="ico_order"></i></div>
+      <div class="weui-cell__bd">
+        <p>历史订单</p>
+      </div>
+      <div class="weui-cell__ft">
+      </div>
+    </a>
+    <a class="weui-cell weui-cell_access" href="javascript:;" onclick="homePage.goFeedback()">
+      <div class="weui-cell__hd"><i class="ico_editor"></i></div>
+      <div class="weui-cell__bd">
+        <p>意见反馈</p>
+      </div>
+      <div class="weui-cell__ft">
+      </div>
+    </a>
+    <a class="weui-cell weui-cell_access" href="javascript:;" onclick="homePage.goHelpCenter()">
+      <div class="weui-cell__hd"><i class="ico_help"></i></div>
+      <div class="weui-cell__bd">
+        <p>帮助中心</p>
+      </div>
+      <div class="weui-cell__ft">
+      </div>
+    </a>
+  </div>
+  <div class="down_load_app">
+    <div class="downing">
+      <i item-start class="">X</i>
+      <div class="app_img">
+        <img src="assets/imgs/avator_default.png" width="30" />
+      </div>
+      <div class="text_down_load" >
+        <h3>乐色管家APP</h3>
+        <p>投垃圾，赚积分，换好物!</p>
+      </div>
+    </div>
+    <div class="down_load_btn"  onclick="homePage.dowladAppLink()">下载APP</div>
+  </div>
+    <script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

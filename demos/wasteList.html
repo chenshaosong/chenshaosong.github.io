@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>附近</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/wasteList.css">
+  </head>
+
+  <body>
+  <div class="weui-cells ulist" style="display: none">
+    <!--<a class="weui-cell weui-cell_access" href="javascript:;">-->
+      <!--<div class="weui-cell__hd"><img src="assets/imgs/thumb_rubbish.png" height="36" width="36"/></div>-->
+      <!--<div class="weui-cell__bd">-->
+        <!--<h3>迈克国际</h3>-->
+        <!--<p>120米</p>-->
+      <!--</div>-->
+      <!--<div class="weui-cell__ft">-->
+        <!--到这儿去-->
+      <!--</div>-->
+    <!--</a>-->
+    <!--<a class="weui-cell weui-cell_access" href="javascript:;">-->
+      <!--<div class="weui-cell__hd"><img src="assets/imgs/thumb_rubbish.png" height="36" width="36"/></div>-->
+      <!--<div class="weui-cell__bd">-->
+        <!--<h3>迈克国际dddddddddddddddddddddddddddddddddddddddddddddddddddddddd</h3>-->
+        <!--<p>120米</p>-->
+      <!--</div>-->
+      <!--<div class="weui-cell__ft">-->
+        <!--到这儿去-->
+      <!--</div>-->
+    <!--</a>-->
+  </div>
+  <div class="no_order_show" style="height: 100%">
+    <div class="no_order_box">
+      <img src="assets/imgs/empty_default.png" width="" />
+      <h3>您附近没有乐色箱!</h3>
+      <p style="color:#5F686E ">溜达溜达在试试看吧~~</p>
+      <div class="refreshBtn" onclick="wastePage.refreshMailList()">刷新</div>
+    </div>
+  </div>
+    <script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+    <script src="js/wasteList.js"></script>
+  </body>
+</html>

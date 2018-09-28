@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>乐享商城订单</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/historyShop.css">
+  </head>
+
+  <body>
+  <div class="del_tab">
+      <!--<div (click)="clickTab(item.num)"><div class="active">全部</div></div>-->
+      <!--<div (click)="clickTab(item.num)"><div class="">代付款</div></div>-->
+      <!--<div (click)="clickTab(item.num)"><div class="">代付款</div></div>-->
+      <!--<div (click)="clickTab(item.num)"><div class="">代付款</div></div>-->
+      <!--<div (click)="clickTab(item.num)"><div class="">代付款</div></div>-->
+  </div>
+  <div class="data_list">
+    <!--<div class="weui-cells">-->
+      <!--<a class="weui-cell weui-cell_access" href="javascript:;">-->
+        <!--<div class="weui-cell__bd">-->
+          <!--<p>订单编号</p>-->
+        <!--</div>-->
+        <!--<div class="weui-cell__ft">-->
+          <!--66666666666666-->
+        <!--</div>-->
+      <!--</a>-->
+      <!--<a class="weui-cell weui-cell_access" href="javascript:;">-->
+        <!--<div class="weui-cell__hd"><img src="" class="img1" /></div>-->
+        <!--<div class="weui-cell__bd">-->
+          <!--<h3 class="grop">ssssssssd啊啊啊啊啊啊啊少时诵诗书所所所所所所</h3>-->
+          <!--<p class="paragraph">乐豆：<span>120</span>  数量：11111</p>-->
+        <!--</div>-->
+      <!--</a>-->
+      <!--<a class="weui-cell weui-cell_access" href="javascript:;">-->
+        <!--<div class="weui-cell__bd">-->
+          <!--<p>下单时间：2018-0-12</p>-->
+        <!--</div>-->
+        <!--<div class="weui-cell__ft">-->
+          <!--<p class="btn_his">去支付</p>-->
+        <!--</div>-->
+      <!--</a>-->
+    <!--</div>-->
+    <div class="no_order_show">
+      <div class="no_order_box">
+        <img src="assets/imgs/empty_default.png" width="" />
+        <h3>您还没有相关的订单</h3>
+        <p style="color:#5F686E ">试试看看刷新页面吧~</p>
+        <div class="refreshBtn" onclick="historyShopPage.refreshMailList()">刷新</div>
+      </div>
+    </div>
+  </div>
+    <script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+    <script src="js/historyShop.js"></script>
+  </body>
+</html>

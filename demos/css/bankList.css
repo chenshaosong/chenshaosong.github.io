@@ -1,0 +1,20 @@
+.weui-cell__hd {
+  margin-right: 0.8rem;
+}
+.weui-cell__hd img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.weui-cell:before {
+  left: 0;
+}
+.weui-cells {
+  margin-top: 0;
+}
+.weui-cell {
+  height: 1.5rem;
+}
+.weui-cell p {
+  font-size: 0.65rem;
+  color: rgba(0, 0, 0, 0.57);
+}

@@ -1,0 +1,78 @@
+.float_icon {
+  z-index: 100;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 1.6rem;
+  line-height: 1.6rem;
+  background: #85BB43;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.14), 0 3px 1px -2px rgba(255, 255, 255, 0.2), 0 1px 5px 0 rgba(255, 255, 255, 0.12);
+}
+.weui-panel {
+  background-color: transparent;
+}
+.weui-panel .weui-panel__bd {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.weui-panel .weui-panel__bd a {
+  margin-top: 0.6rem;
+  width: 17.55rem;
+  height: 6.25rem;
+  padding: 0;
+  background: #85BB43;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.14), 0 3px 1px -2px rgba(255, 255, 255, 0.2), 0 1px 5px 0 rgba(255, 255, 255, 0.12);
+}
+.weui-panel .weui-panel__bd a:before {
+  border-top: 0;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__hd {
+  margin-left: 0.8rem;
+  margin-top: -1.5rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__hd img {
+  width: 2rem;
+  height: 2rem;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__bd h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: rgba(255, 255, 255, 0.54);
+  font-weight: 500;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__bd p {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: rgba(255, 255, 255, 0.54);
+  margin: 0.5rem 0 1.3rem;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__bd .cardNum {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+.weui-panel .weui-panel__bd a .weui-media-box__bd .cardNum div {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: rgba(255, 255, 255, 0.87);
+}

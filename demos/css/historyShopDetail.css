@@ -1,0 +1,85 @@
+.flex_box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 4rem;
+  padding: 0 1rem;
+}
+.flex_box h3 {
+  font-weight: 500;
+}
+.flex_box p {
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.weui-cell__hd {
+  margin-right: 0.6rem;
+  font-size: 0.7rem;
+}
+.weui-cell__hd .img1 {
+  width: 3rem;
+  height: 3rem;
+}
+.weui-cell__bd {
+  width: 12.5rem ;
+}
+.weui-cell__bd h3 {
+  width: 100%;
+  font-size: 0.7rem;
+}
+.weui-cell__bd p {
+  font-size: 0.5rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.weui-cell__bd p span {
+  font-size: 0.7rem;
+  color: #CD624A;
+}
+.weui-cell__bd p .time,
+.weui-cell__bd p .bianhao {
+  color: rgba(0, 0, 0, 0.87);
+}
+.wlmsg h3 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.wlmsg p {
+  color: black;
+}
+.weui-cell__ft {
+  color: black;
+  font-size: 0.5rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.weui-cell__ft span {
+  font-size: 0.7rem;
+  color: #E68D76;
+  margin-right: 0.1rem;
+}
+.weui-cell__ft p {
+  padding: 0.1rem 0.2rem;
+  border: 1px solid #ccc;
+  font-size: 0.7rem;
+  border-radius: 0.1rem;
+}
+.weui-cell__ft .btn_his {
+  color: #E78E77;
+  border-color: #E78E77;
+}
+.weui-cell__ft .btn_alert {
+  color: #F0A014;
+  border-color: #F0A014;
+}
+.weui-cell__ft .btn_comfirm {
+  color: #85BB43;
+  border-color: #85BB43;
+}
+.weui-cell__ft .btn_complete {
+  color: #B0B2B5;
+  border-color: #B0B2B5;
+}

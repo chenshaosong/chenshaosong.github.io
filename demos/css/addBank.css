@@ -1,0 +1,32 @@
+.btn {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-top: 1.4rem;
+}
+.btn a {
+  width: 17.15rem;
+  height: 2.2rem;
+}
+.weui-cell__hd label {
+  font-weight: 600;
+}
+.weui-cell__bd input {
+  font-size: 0.6rem;
+}
+.input_bank {
+  margin-top: 0;
+}
+.input_bank:after {
+  border-bottom: 0;
+}
+.input_bank .weui-cell {
+  height: 2.2rem;
+  padding: 0 15px;
+}

@@ -1,0 +1,56 @@
+.weui-cell:before {
+  left: 0;
+}
+.weui-cells {
+  margin-top: 0.6rem;
+}
+.weui-cellsone:before {
+  border-top: 0;
+}
+.weui-cellsone {
+  margin-top: 0;
+}
+.weui-cells .weui-cell {
+  height: 1.1rem;
+}
+.weui-cells .weui-cell .weui-cell__bd {
+  font-size: 0.625rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.weui-cells .weui-cell .personal_pic {
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+}
+.weui-cells .weui-cell .personal_pic img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.weui-cells .weui-cell .personal_pic:after {
+  display: none;
+}
+.weui-cells .weui-cell .phone p {
+  font-size: 0.7rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.weui-cells .weui-cell .phone:after {
+  display: none;
+}
+.weui-cells .weui-cell .qrcode i {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.weui-cells .weui-cell .already p {
+  color: #F0A014 ;
+  font-size: 0.8rem;
+  margin-right: 0.2rem;
+  line-height: 0.8rem;
+}
+.weui-cells .pic {
+  height: 1.75rem;
+}

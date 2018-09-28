@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录</title>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+<link rel="stylesheet" href="../lib/weui.min.css">
+<link rel="stylesheet" href="../css/jquery-weui.css">
+<link rel="stylesheet" href="css/demos.css">
+
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<div class="loginBg">
+
+</div>
+
+<div class="form_login">
+    <div class="logo">
+        <!-- <ion-icon class="ico ico_logo_app"></ion-icon> -->
+        <img src="assets/imgs/logo_lese_txt1.png"/>
+
+    </div>
+    <!--<div class="weui-flex">-->
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <input class="weui-input phone" type="number" placeholder="请输入手机号">
+            </div>
+        </div>
+
+        <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <input class="weui-input qrcode" type="number" placeholder="请输入验证码">
+            </div>
+            <div class="weui-cell__ft">
+                <button class="getCode" onclick="loginPage.getVerifyingCode()">获取验证码</button>
+            </div>
+        </div>
+    <!--</div>-->
+    <div class="LoginDiv">
+        <button class="loginNow" >
+            绑定手机号
+        </button>
+    </div>
+    <!--<p class="paragraph"><a href="javascript:;" (click)="jumpRegister()">我要注册</a></p>-->
+    <!--<div class="footDiv">
+      <ion-label color="mywhite" (click)="forgotPsw()">忘记密码</ion-label>
+    </div>-->
+</div>
+
+<div class="login_other">
+</div>
+
+<script src="../lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script src="assets/js/qrcode.min.js"></script>
+<script src="../lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="../js/jquery-weui.js"></script>
+<script src="js/router/router.js"></script>
+<script src="js/url/url.js"></script>
+<script src="js/http/http.js"></script>
+<script src="js/util/util.js"></script>
+<script src="js/public/public.js"></script>
+
+<script src="js/login.js"></script>
+</body>
+</html>
