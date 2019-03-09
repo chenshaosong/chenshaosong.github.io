@@ -203,9 +203,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var _layout_default_default_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/default/default.component */ "./src/app/layout/default/default.component.ts");
 /* harmony import */ var _passport_login_login_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./passport/login/login.component */ "./src/app/passport/login/login.component.ts");
-/* harmony import */ var _login_gurad_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./login-gurad.service */ "./src/app/login-gurad.service.ts");
-/* harmony import */ var _pages_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/welcome/welcome.component */ "./src/app/pages/welcome/welcome.component.ts");
-/* harmony import */ var _pages_edit_parssword_edit_parssword_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/edit-parssword/edit-parssword.component */ "./src/app/pages/edit-parssword/edit-parssword.component.ts");
+/* harmony import */ var _pages_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/welcome/welcome.component */ "./src/app/pages/welcome/welcome.component.ts");
+/* harmony import */ var _pages_edit_parssword_edit_parssword_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/edit-parssword/edit-parssword.component */ "./src/app/pages/edit-parssword/edit-parssword.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -218,24 +217,23 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
 var routes = [
     {
         path: '',
         component: _layout_default_default_component__WEBPACK_IMPORTED_MODULE_2__["DefaultComponent"],
         children: [
             { path: '', redirectTo: 'welcome', pathMatch: 'full' },
-            { path: 'welcome', component: _pages_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_5__["WelcomeComponent"], canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'edit-password', component: _pages_edit_parssword_edit_parssword_component__WEBPACK_IMPORTED_MODULE_6__["EditParsswordComponent"], canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'user', loadChildren: './pages/user/user.module#UserModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'sys', loadChildren: './pages/sys/sys.module#SysModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'permission', loadChildren: './pages/permission/permission.module#PermissionModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'experts', loadChildren: './pages/experts/experts.module#ExpertsModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'consulting', loadChildren: './pages/consulting/consulting.module#ConsultingModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'column', loadChildren: './pages/column/column.module#ColumnModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'article', loadChildren: './pages/article/article.module#ArticleModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'product', loadChildren: './pages/product/product.module#ProductModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
-            { path: 'order', loadChildren: './pages/order/order.module#OrderModule', canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]] },
+            { path: 'welcome', component: _pages_welcome_welcome_component__WEBPACK_IMPORTED_MODULE_4__["WelcomeComponent"], canActivate: [] },
+            { path: 'edit-password', component: _pages_edit_parssword_edit_parssword_component__WEBPACK_IMPORTED_MODULE_5__["EditParsswordComponent"], canActivate: [] },
+            { path: 'user', loadChildren: './pages/user/user.module#UserModule', canActivate: [] },
+            { path: 'sys', loadChildren: './pages/sys/sys.module#SysModule', canActivate: [] },
+            { path: 'permission', loadChildren: './pages/permission/permission.module#PermissionModule', canActivate: [] },
+            { path: 'experts', loadChildren: './pages/experts/experts.module#ExpertsModule', canActivate: [] },
+            { path: 'consulting', loadChildren: './pages/consulting/consulting.module#ConsultingModule', canActivate: [] },
+            { path: 'column', loadChildren: './pages/column/column.module#ColumnModule', canActivate: [] },
+            { path: 'article', loadChildren: './pages/article/article.module#ArticleModule', canActivate: [] },
+            { path: 'product', loadChildren: './pages/product/product.module#ProductModule', canActivate: [] },
+            { path: 'order', loadChildren: './pages/order/order.module#OrderModule', canActivate: [] },
             { path: 'service', loadChildren: './pages/service/service.module#ServiceModule', canActivate: [] },
             { path: 'ad', loadChildren: './pages/ad/ad.module#AdModule', canActivate: [] },
         ]
@@ -243,7 +241,7 @@ var routes = [
     {
         path: 'login',
         component: _passport_login_login_component__WEBPACK_IMPORTED_MODULE_3__["LoginComponent"],
-        canActivate: [_login_gurad_service__WEBPACK_IMPORTED_MODULE_4__["LoginGuradService"]]
+        canActivate: []
     },
     {
         path: '**',
