@@ -39,7 +39,7 @@ HttpServe.prototype.get = function(url,params,ef,sf){
             let data = JSON.stringify(res);
             const body = JSON.parse(data);
             if(body.code == '99999'){
-                window.location.href = 'login.html';
+                // window.location.href = 'login.html';
             }
             if (body) {
                 sf({
@@ -100,7 +100,7 @@ HttpServe.prototype.post = function(url,params,ef,sf){
             let data = JSON.stringify(res);
             const body = JSON.parse(data);
             if(body.code == '99999'){
-                window.location.href = 'index.html';
+                // window.location.href = 'index.html';
             }
             if (body) {
                 sf({

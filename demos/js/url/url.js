@@ -1,15 +1,15 @@
 function CommonUrl(){
     //开发环境
-this.commentBaseUrl = "http://net-dev1.xteamsoft.com/"
+// this.commentBaseUrl = "http://net-dev1.xteamsoft.com/"
 // this.commentBaseUrl = "http://192.168.1.107:8080/";
 // this.commentImgBaseUrl = "http://192.168.1.107:8080/web";
-this.commentImgBaseUrl = "http://net-dev1.xteamsoft.com/web";
+// this.commentImgBaseUrl = "http://net-dev1.xteamsoft.com/web";
     //2018-9-21
 // this.commentBaseUrl = "http://192.168.1.149:8124/";
 // this.commentImgBaseUrl = "http://192.168.1.149:8124/web";
 // 公网环境
-// this.commentBaseUrl = "http://47.106.162.153:8080/";
-// this.commentImgBaseUrl = "http://47.106.162.153:8080/web";
+this.commentBaseUrl = "http://47.106.162.153:8080/";
+this.commentImgBaseUrl = "http://47.106.162.153:8080/web";
 // 测试环境
 // this.commentBaseUrl = "http://192.168.1.209:8080/";
 // this.commentImgBaseUrl = "http://192.168.1.209:8080/";

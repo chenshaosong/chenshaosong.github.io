@@ -226,12 +226,12 @@ HomePage.prototype.beforeInit = function(){
                 } else {
                     // 进入login页面
                     $.alert(userInfo.code);
-                    window.location.href = 'login.html';
+                    // window.location.href = 'login.html';
                 }
             },
             ef:function(result){
                 $.alert('请求失败');
-                window.location.href = 'login.html';
+                // window.location.href = 'login.html';
             }
         });
         return data;

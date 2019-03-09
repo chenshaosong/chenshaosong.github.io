@@ -1,0 +1,54 @@
+{
+  "menu": [
+    {
+      "text": "权限管理",
+      "icon": "ico ico_keyline",
+      "link": "/permission"
+    },
+    {
+      "text": "用户管理",
+      "icon": "ico ico_usergroup",
+      "link": "/user"
+    },
+    {
+      "text": "服务商管理",
+      "icon": "ico ico_commodity",
+      "link": "/service"
+    },
+    {
+      "text": "专家管理",
+      "icon": "ico ico_expert",
+      "link": "/experts"
+    },
+    {
+      "text": "商品管理",
+      "icon": "ico ico_commodity",
+      "link": "/product"
+    },
+    {
+      "text": "订单管理",
+      "icon": "ico ico_commodity",
+      "link": "/order"
+    },
+    {
+      "text": "资讯管理",
+      "icon": "ico ico_news",
+      "link": "/consulting"
+    },
+    {
+      "text": "文章管理",
+      "icon": "ico ico_article",
+      "link": "/article"
+    },
+    {
+      "text": "系统管理",
+      "icon": "ico ico_usermanage",
+      "link": "/sys"
+    },
+    {
+      "text": "专栏管理",
+      "icon": "ico ico_usermanage",
+      "link": "/column"
+    }
+  ]
+}
