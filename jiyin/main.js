@@ -1440,7 +1440,7 @@ var ResetHttpService = /** @class */ (function () {
             if (data['code'] === '99999') {
                 vm.msg.error(data['message']);
                 sessionStorage.clear();
-                vm.router.navigate(['/login']);
+                //vm.router.navigate(['/login']);
             }
             else {
                 cb(data);
@@ -1463,7 +1463,7 @@ var ResetHttpService = /** @class */ (function () {
             if (res['code'] === '99999') {
                 vm.msg.error(res['message']);
                 sessionStorage.clear();
-                vm.router.navigate(['/login']);
+                //vm.router.navigate(['/login']);
                 return;
             }
             cb(res);
